@@ -1,0 +1,35 @@
+{
+  "model": "/kaggle/working/models/tms_isl_final_int8.tflite",
+  "dataset": "/kaggle/working/data/processed",
+  "metrics": {
+    "top1_accuracy": 0.9254079254079254,
+    "top5_accuracy": 0.972027972027972,
+    "mean_inference_ms": 2.1902881305168047,
+    "p95_inference_ms": 2.4726403986278456,
+    "model_size_mb": 0.715,
+    "macro_f1": 0.7946248196248197,
+    "false_acceptance": 0.027972027972027972,
+    "peak_memory_mb": 0.11,
+    "n_samples": 429,
+    "n_classes": 264
+  },
+  "thresholds": {
+    "top1_accuracy": 0.9,
+    "top5_accuracy": 0.97,
+    "mean_inference_ms": 65.0,
+    "model_size_mb": 8.0,
+    "macro_f1": 0.85,
+    "false_acceptance": 0.05,
+    "peak_memory_mb": 80.0
+  },
+  "checks": {
+    "top1_accuracy": true,
+    "top5_accuracy": true,
+    "mean_inference_ms": true,
+    "model_size_mb": true,
+    "macro_f1": false,
+    "false_acceptance": true,
+    "peak_memory_mb": true
+  },
+  "all_pass": false
+}

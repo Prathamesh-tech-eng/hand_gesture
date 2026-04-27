@@ -132,3 +132,4 @@ if run:
     cap.release()
 else:
     st_label.warning("Webcam is stopped.")
+
